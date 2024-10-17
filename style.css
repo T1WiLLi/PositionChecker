@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#shapeInfoList {
+    width: 220px;
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+#shapeInfoList h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#shapeList {
+    list-style-type: none;
+}
+
+#shapeList li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#shapeList li:hover {
+    background-color: #dee2e6;
+}
+
+#shapeList li.selected {
+    background-color: #cce5ff;
+}
+
+#shapeList .shape-name {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+#shapeList .shape-name input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 8px;
+    width: 90%;
+    margin-bottom: 5px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+}
+
+#shapeList .shape-name  input:focus {
+    border: #0066ff;
+    box-shadow: 0 0 5px rgba(0, 102, 255, 0.5);
+}
+
+#shapeList .shape-info {
+    font-size: 14px;
+    color: #495057;
+}
+
+#canvas-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+#controls {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+#controls div {
+    margin-bottom: 10px;
+}
+
+#controls label {
+    margin-right: 5px;
+    font-weight: 500;
+}
+
+#controls input {
+    width: 80px;
+    padding: 6px;
+    margin-right: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#controls button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+#controls button:hover {
+    background-color: #218838;
+}
+
+#canvas {
+    border: 2px solid #343a40;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#element-panel {
+    width: 260px;
+    background-color: #ffffff;
+    border-left: 1px solid #ccc;
+    overflow-y: auto;
+    padding: 20px;
+    position: relative;
+}
+
+#element-panel h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#panel-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #495057;
+}
+
+#panel-content input[type="number"],
+#panel-content input[type="range"] {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+#panel-content button {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+#panel-content button:hover {
+    background-color: #c82333;
+}
+
+#panel-content .close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #6c757d;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    line-height: 1;
+}
+
+
+#panel-content .close-button:hover {
+    color: #343a40;
+}
+
+#panel-content .quick-rotation-button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+#panel-content .quick-rotation-button:hover {
+    background-color: #138496;
+}
+
+.highlight-cell {
+    fill: rgba(40, 167, 69, 0.3);
+}
+
+.delete-selected-button {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.delete-selected-button:hover {
+    background-color: #c82333;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    #shapeInfoList {
+        width: 180px;
+    }
+
+    #element-panel {
+        width: 220px;
+    }
+
+    #controls input {
+        width: 60px;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/603/603563.png" type="image/x-icon">
+</head>
+<body>
+    <div id="main-container">
+        <div id="shapeInfoList">
+            <h3>Shapes</h3>
+            <ul id="shapeList"></ul>
+        </div>
+
+        <div id="canvas-container">
+            <div id="controls">
+                <div>
+                    <label for="canvasWidth">Canvas Width:</label>
+                    <input type="number" id="canvasWidth" value="800">
+                    <label for="canvasHeight">Canvas Height:</label>
+                    <input type="number" id="canvasHeight" value="600">
+                    <button id="resizeCanvas">Resize Canvas</button>
+                </div>
+                <div>
+                    <label for="gridSize">Grid Size (px):</label>
+                    <input type="number" id="gridSize" value="5">
+                </div>
+                <div id="shape-buttons">
+                    <button onclick="createShape('rectangle')">Create Rectangle</button>
+                    <button onclick="createShape('circle')">Create Circle</button>
+                    <button onclick="createShape('triangle')">Create Triangle</button>
+                </div>
+            </div>
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div id="element-panel">
+            <h3 id="panel-title">Shape Properties</h3>
+            <div id="panel-content">
+            </div>
+        </div>
+    </div>
+
+    <footer>William Beaudin &copy; 2024-2025 | <strong> Position Checker</strong> dans le cadre du cours de POO-2. </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
