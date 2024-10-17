@@ -1,6 +1,6 @@
 # Position Checker
 
-**Position Checker** est un outil web permettant de gérer et manipuler des formes sur un canevas. Les utilisateurs peuvent créer, déplacer, pivoter et modifier diverses propriétés de formes telles que des rectangles, des cercles et des triangles. Cet outil offre également un système de grille, des contrôles de rotation et un panneau d'information pour ajuster les formes avec précision.
+**Position Checker** est un outil web permettant de gérer et manipuler des formes sur un canvas. Les utilisateurs peuvent créer, déplacer, pivoter et modifier diverses propriétés de formes telles que des rectangles, des cercles et des triangles. Cet outil offre également un système de grille, des contrôles de rotation et un panneau d'information pour ajuster les formes avec précision.
 
 ## Fonctionnalités
 
