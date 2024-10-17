@@ -1,6 +1,6 @@
 # Position Checker
 
-**Position Checker** est un outil web permettant de gérer et manipuler des formes sur un canevas. Les utilisateurs peuvent créer, déplacer, pivoter et modifier diverses propriétés de formes telles que des rectangles, des cercles et des triangles. Cet outil offre également un système de grille, des contrôles de rotation et un panneau d'information pour ajuster les formes avec précision.
+**Position Checker** est un outil web permettant de gérer et manipuler des formes sur un canvas. Les utilisateurs peuvent créer, déplacer, pivoter et modifier diverses propriétés de formes telles que des rectangles, des cercles et des triangles. Cet outil offre également un système de grille, des contrôles de rotation et un panneau d'information pour ajuster les formes avec précision.
 
 ## Fonctionnalités
 
@@ -34,7 +34,7 @@
 
 Vous n'avez **pas besoin de télécharger** l'application pour l'utiliser. Rendez-vous directement sur le site hébergé via GitHub Pages :
 
-**[Utiliser Position Checker en ligne](https://votre-utilisateur.github.io/position-checker/)**
+**[Utiliser Position Checker en ligne](https://t1willi.github.io/PositionChecker/)**
 
 Si vous souhaitez télécharger le projet pour l'héberger ou le modifier localement, suivez les étapes ci-dessous :
 
@@ -50,7 +50,7 @@ Si vous souhaitez télécharger le projet pour l'héberger ou le modifier locale
 
 ## Utilisation
 
-- **Utilisation en ligne** : Accédez directement à l'application via GitHub Pages [ici](https://votre-utilisateur.github.io/position-checker/) sans avoir à la télécharger.
+- **Utilisation en ligne** : Accédez directement à l'application via GitHub Pages [ici](https://t1willi.github.io/PositionChecker/) sans avoir à la télécharger.
 
 - **Créer des formes** : Utilisez les boutons dans la section "Contrôles" pour ajouter des formes (Rectangle, Cercle, Triangle) sur le canevas.
 
@@ -124,4 +124,4 @@ Sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## Lien GitHub Pages
 
-L'application est disponible en ligne via GitHub Pages à l'adresse suivante : **[Utiliser Position Checker](https://votre-utilisateur.github.io/position-checker/)**.
+L'application est disponible en ligne via GitHub Pages à l'adresse suivante : **[Utiliser Position Checker](https://t1willi.github.io/PositionChecker/)**.
