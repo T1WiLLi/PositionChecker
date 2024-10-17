@@ -50,6 +50,8 @@ Si vous souhaitez télécharger le projet pour l'héberger ou le modifier locale
 
 ## Utilisation
 
+![Web App Image example](image.png)
+
 - **Utilisation en ligne** : Accédez directement à l'application via GitHub Pages [ici](https://t1willi.github.io/PositionChecker/) sans avoir à la télécharger.
 
 - **Créer des formes** : Utilisez les boutons dans la section "Contrôles" pour ajouter des formes (Rectangle, Cercle, Triangle) sur le canevas.
